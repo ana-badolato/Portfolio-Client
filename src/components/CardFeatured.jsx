@@ -1,4 +1,5 @@
 import { useState } from "react";
+import "../CSS/CardFeatured.css"
 
 function CardFeatured(props) {
   const {
@@ -25,7 +26,7 @@ function CardFeatured(props) {
   });
 
   return (
-    <div>
+    <div className="card-container">
       <div className="section-content">
         <h2 className="section-title">{title}</h2>
         <div className="skills-tags">

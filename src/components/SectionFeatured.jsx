@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import CardFeatured from "../components/CardFeatured.jsx"
 import service from "../services/config.js";
+import "../CSS/CardFeatured.css"
 
 function SectionFeatured() {
 
@@ -32,7 +33,7 @@ function SectionFeatured() {
   
   return (
     <div>
-      <h1>Featured</h1>
+      <div className="cards-list">
       {allFeaturedProjects.map((eachProject) => {
               return (
                 <CardFeatured
@@ -42,6 +43,8 @@ function SectionFeatured() {
                 />
               );
             })}
+
+      </div>
     </div>
   )
 }

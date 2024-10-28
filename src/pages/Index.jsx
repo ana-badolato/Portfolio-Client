@@ -7,6 +7,7 @@ function Index() {
   return (
     <div className="main-container">
       <div className="content">
+      
       <SectionFeatured />
       <SectionSkills />
       <SectionNotFeatured />

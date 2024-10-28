@@ -1,7 +1,12 @@
 
 function Navbar() {
   return (
-    <div>Navbar</div>
+    <nav className="section-navbar">
+      <div className="main-container">
+
+      Navbar
+      </div>
+      </nav>
   )
 }
 

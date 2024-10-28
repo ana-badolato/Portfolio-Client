@@ -36,12 +36,13 @@ ol {
 }
 
 
-.main-container-1440 {
+.main-container {
   max-width: 1440px;
   margin: auto;
 }
 
-#root, .main-container{
+
+#root{
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -52,7 +53,48 @@ ol {
 }
 
 .section-footer {
-  background-color: var(--primary-green); /* Color de fondo opcional */
+  background-color: var(--primary-green);
   color: var(--secundary-grey);
   height: 100px;
 }
+
+.icon-text{
+  display: flex;
+  gap: 8px;
+}
+
+.skills-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.chip {
+  padding: 4px 8px;
+  border: 1px solid var(--primary-green);
+  border-radius: 2px;
+  color: var(--primary-green);
+  font-size: 0.9rem;
+  background-color: var(--neutral-white);
+  white-space: nowrap; 
+}
+
+.section-title{
+  font-size: 32px;
+}
+
+/*nav*/
+.section-navbar{
+  height: 100px;
+}
+
+/* Hero -------------------------------------------*/
+.section-hero {
+  background-image: url("../src/assets/images/backgroundHome.png");
+  background-size: cover; /* La imagen cubre todo el contenedor */
+  background-position: center; /* Centra la imagen */
+  background-repeat: no-repeat;
+  height: 100vh; /* La sección ocupa el 100% de la altura de la pantalla */
+}
+

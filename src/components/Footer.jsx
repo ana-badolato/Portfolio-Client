@@ -1,7 +1,12 @@
 
 function Footer() {
   return (
-    <div className="section-footer">Footer</div>
+    <div className="section-footer">
+      <div className="main-container">
+        Footer
+      </div>
+
+      </div>
   )
 }
 
