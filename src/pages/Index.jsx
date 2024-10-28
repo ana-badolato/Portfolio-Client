@@ -5,11 +5,13 @@ import SectionSkills from "../components/SectionSkills.jsx"
 
 function Index() {
   return (
-    <div>
+    <div className="main-container">
+      <div className="content">
       <SectionFeatured />
       <SectionSkills />
       <SectionNotFeatured />
       <SectionAboutMe />
+      </div>
     </div>
   )
 }
