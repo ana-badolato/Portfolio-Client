@@ -7,6 +7,7 @@ import jsImg from "../assets/images/js.svg"
 import mongoImg from "../assets/images/mongo.svg"
 import nodejsImg from "../assets/images/nodejs.svg"
 
+
 function Skills() {
   return (
     <div>

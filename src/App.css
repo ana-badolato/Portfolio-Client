@@ -36,7 +36,7 @@ ol {
 }
 
 
-.main-container {
+.main-container, .main-nav-container {
   max-width: 1440px;
   margin: auto;
 }
@@ -52,11 +52,7 @@ ol {
   flex-grow: 1; /* Permite que el contenido crezca y empuje el footer si hay suficiente contenido */
 }
 
-.section-footer {
-  background-color: var(--primary-green);
-  color: var(--secundary-grey);
-  height: 100px;
-}
+
 
 .icon-text{
   display: flex;
@@ -98,3 +94,27 @@ ol {
   height: 100vh; /* La sección ocupa el 100% de la altura de la pantalla */
 }
 
+
+/* Download Button ---------------------------------------*/
+.download-button{
+  border: none;
+  background-color: var(--primary-green);
+  color: var(--neutral-white);
+  display: flex;
+  gap: 8px;
+  padding: 8px 16px;
+  font-family: var(--font-secundary);
+  border-radius: 3px;
+  font-size: 14px;
+  align-items: center;
+}
+
+.download-button:hover {
+  cursor: pointer;
+  background-color: #59ad91;
+  transition: 0.5s;
+}
+
+.download-button img{
+  width: 14px;
+}

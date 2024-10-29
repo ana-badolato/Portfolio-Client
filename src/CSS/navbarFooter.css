@@ -1,0 +1,16 @@
+/*Navbar--------------------------------------------------------*/
+.main-nav-container, .navbar-right, .social-media-icons, .navbar-center{
+  display: flex;
+}
+
+.main-nav-container{
+  justify-content: space-between;
+}
+
+.navbar-right{
+  gap: 24px;
+}
+
+.section-footer {
+  height: 100px;
+}
