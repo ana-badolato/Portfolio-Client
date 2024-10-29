@@ -19,8 +19,7 @@ function SectionFeatured() {
     try {
       setIsLoading(true);
       const response = await service.get("/project/featured");
-      console.log(response)
-      setAllFeaturedProjects(response.data);
+      setAllFeaturedProjects(response.data || []);
       setIsLoading(false);
     } catch (error) {
       console.log(error);
