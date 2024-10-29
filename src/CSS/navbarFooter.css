@@ -5,12 +5,77 @@
 
 .main-nav-container{
   justify-content: space-between;
+  align-items: center;
+  width: 100%;
 }
 
 .navbar-right{
-  gap: 24px;
+  gap: 40px;
 }
 
-.section-footer {
+.logo {
+
+  font-weight: 500;
+  color: var(--primary-green);
+}
+
+.section-navbar, .section-footer {
   height: 100px;
+display: flex;
+align-items: center;
+font-family: var(--font-secundary);
+}
+
+.social-media-icons {
+  gap: 16px;
+}
+
+.social-media-icons img {
+  transition: transform 0.3s ease; /* Transición suave */
+}
+
+.social-media-icons img:hover {
+  transform: translateY(-4px); 
+  cursor: pointer;
+}
+
+.link-page:hover{
+  color: var(--primary-green);
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+/*Footer--------------------------------------------*/
+
+.navbar-center{
+  gap: 32px;
+}
+
+.icon-text-footer {
+  align-items: center;
+}
+
+.icon-text-footer {
+  cursor: pointer;
+}
+
+.icon-text-footer p:hover {
+  color: var(--primary-green);
+  transition: 0.5s;
+}
+
+.email {
+  color: var(--primary-green);
+  text-decoration: underline;
+}
+
+.hr-footer{
+  border: none;
+  height: 0.5px;
+  background-color: #cacaca;
+  width: 100%;
+}
+
+.divider {
+  color: #cacaca;
 }

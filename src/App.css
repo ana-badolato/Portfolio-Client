@@ -54,7 +54,7 @@ ol {
 
 
 
-.icon-text{
+.icon-text, .icon-text-footer{
   display: flex;
   gap: 8px;
 }
@@ -80,10 +80,6 @@ ol {
   font-size: 32px;
 }
 
-/*nav*/
-.section-navbar{
-  height: 100px;
-}
 
 /* Hero -------------------------------------------*/
 .section-hero {
@@ -117,4 +113,32 @@ ol {
 
 .download-button img{
   width: 14px;
+}
+
+/* Scroll to top button -------------------------------------*/
+
+.scroll-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: var(--primary-green); /* Ajusta el color de fondo */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.scroll-to-top:hover {
+  transform: scale(1.1); /* Efecto de agrandamiento al pasar el ratón */
+}
+
+.scroll-to-top img {
+  width: 24px; /* Tamaño de la flecha (ajusta según tu preferencia) */
+  height: 24px;
 }

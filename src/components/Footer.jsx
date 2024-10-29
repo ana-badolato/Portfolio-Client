@@ -5,30 +5,34 @@ import "../CSS/navbarFooter.css";
 
 function Footer() {
   return (
+    <div>
+      <hr className="hr-footer"/>
     <div className="section-footer">
-      <hr />
       <div className="main-nav-container">
         <div className="navbar-left">
           <p className="logo">Ana Badolato</p>
         </div>
         <div className="navbar-center">
-          <a href="" className="icon-text">
-            <img src={linkedinImg} alt="" />
+          <a href="https://www.linkedin.com/in/anabadolatomunuera/" className="icon-text-footer" target="_blank">
+            <img src={linkedinImg} alt="linkedin link" />
             <p>LinkedIn</p>
           </a>
-          <a href="" className="icon-text">
-            <img src={githubImg} alt="" />
+          <p className="divider">|</p>
+          <a href="https://github.com/ana-badolato" className="icon-text-footer" target="_blank">
+            <img src={githubImg} alt="github link" />
             <p>GitHub</p>
           </a>
-          <a href="" className="icon-text">
-            <img src={behanceImg} alt="" />
+          <p className="divider">|</p>
+          <a href="https://www.behance.net/anabadolato" className="icon-text-footer">
+            <img src={behanceImg} alt="behance link" target="_blank"/>
             <p>Behance</p>
           </a>
         </div>
       <div className="navbar-right">
-        <p>badolatoana@gmail.com</p>
+      <a href="mailto:badolatoana@gmail.com" className="email">badolatoana@gmail.com</a>
       </div>
       </div>
+    </div>
     </div>
   );
 }

@@ -19,8 +19,8 @@ function SectionAboutMe() {
           blend solid coding with engaging design.
         </p>
         <p>
-          If you'd like to know more, download my CV or reach out at 
-          <span> badolatoana@gmail.com</span>! 😊
+          If you'd like to know more, download my CV or reach out at <span> </span>
+          <a href="mailto:badolatoana@gmail.com" className="email">badolatoana@gmail.com</a>! 😊
         </p>
         <DownloadButton />
       </div>
