@@ -1,26 +1,29 @@
-/* Hero -------------------------------------------*/
+/* Hero ------------------------------------------- */
 .section-hero {
   background-image: url("../src/assets/images/backgroundHome.png");
-  background-size: cover; /* La imagen cubre todo el contenedor */
-  background-position: center; /* Centra la imagen */
+  background-size: cover; /* La imagen cubre el contenedor */
+  background-position: top center; /* Ancla la imagen en la parte superior */
   background-repeat: no-repeat;
   height: 100vh; /* La sección ocupa el 100% de la altura de la pantalla */
   display: flex;
   align-items: center;
+  width: 100vw; /* Asegura que ocupe todo el ancho de la ventana */
+  max-width: 100%; /* Previene desbordamientos */
 }
 
 .main-hero-container {
   position: relative;
   bottom: 128px;
+  padding: 0 16px; /* Añade padding lateral en pantallas pequeñas */
 }
 
-.main-hero-container p{
+.main-hero-container p {
   font-family: var(--font-secundary);
   font-size: 24px;
   font-weight: 500;
 }
 
-.main-hero-container h1{
+.main-hero-container h1 {
   font-size: 96px;
   font-weight: 800;
   margin: 32px 0;
@@ -31,5 +34,55 @@
 }
 
 .green-title {
-  color: var(--primary-green)
+  color: var(--primary-green);
+}
+
+/* Ajustes para dispositivos tablets y móviles */
+@media (max-width: 1024px) {
+  .main-hero-container h1 {
+    font-size: 60px; /* Reduce el tamaño del título aún más */
+    margin-top: 40px; /* Agrega espacio superior en tablets */
+  }
+
+  .main-hero-container p {
+    font-size: 18px; /* Reduce el tamaño de los párrafos */
+  }
+
+  .main-hero-container {
+    bottom: 60px; /* Ajusta el desplazamiento en pantallas más pequeñas */
+  }
+}
+
+@media (max-width: 768px) {
+  .main-hero-container h1 {
+    font-size: 42px; /* Reduce más el tamaño del título en pantallas pequeñas */
+    margin: 40px 0 20px; /* Aumenta margen superior y ajusta margen inferior */
+  }
+
+  .main-hero-container p {
+    font-size: 16px; /* Ajusta el tamaño de los párrafos para móviles */
+    margin-top: 20px; /* Espacio adicional para párrafo debajo del título */
+  }
+
+  .main-hero-container {
+    bottom: 30px; /* Ajusta el desplazamiento en móvil */
+    padding: 0 12px; /* Añade más padding para mejorar la legibilidad */
+  }
+}
+
+@media (max-width: 480px) {
+  .main-hero-container h1 {
+    font-size: 30px; /* Tamaño más pequeño para pantallas muy pequeñas */
+    margin: 50px 0 12px; /* Aumenta margen superior y ajusta margen inferior */
+  }
+
+  .main-hero-container p {
+    font-size: 14px; /* Tamaño de párrafo más pequeño en móviles */
+    margin-top: 64px; /* Espacio adicional para párrafo debajo del título */
+  }
+
+  .section-hero {
+    height: auto; /* Permite que la altura se ajuste al contenido en móviles */
+    padding-top: 32px; /* Añade espacio en la parte superior */
+  }
 }

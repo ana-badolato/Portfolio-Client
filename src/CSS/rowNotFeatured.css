@@ -9,7 +9,7 @@
 }
 
 .title-table {
-  font-size: 32px;
+  font-size: 36px;
   display: flex; /* Asegura que el texto esté alineado en el centro verticalmente */
   align-items: center;
 }
@@ -17,6 +17,12 @@
 .tabs-table {
   display: flex;
   align-items: center;
+
+}
+
+.row-title {
+  font-size: 24px;
+  font-weight: 600;
 }
 
 .web-dev-btn {
@@ -111,4 +117,60 @@ button.active {
   justify-content: flex-end;
   align-items: center;
   margin-top: 96px;
+}
+
+@media (max-width: 728px) {
+  /* Cambia el layout de grid a una sola columna en dispositivos móviles */
+  .row-container {
+    display: flex;
+    flex-direction: column; /* Apila los elementos en una columna */
+    gap: 16px; /* Reduce el espacio entre elementos */
+    padding: 16px 0; /* Ajusta el padding */
+  }
+
+  /* Ajustes de estilo para el título y botones */
+  .row-title {
+    font-size: 20px; /* Reduce el tamaño del título */
+    margin-bottom: 8px; /* Añade un poco de espacio debajo del título */
+  }
+
+  /* Coloca los botones debajo del título */
+  .icon-text {
+    font-size: 14px; /* Reduce el tamaño de la fuente de los botones */
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 4px;
+  }
+
+  /* Apila el resumen y habilidades debajo de los botones */
+  .column2,
+  .column3,
+  .column4,
+  .column5 {
+    font-size: 14px; /* Reduce el tamaño de la fuente para móviles */
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    padding: 0 16px;
+  }
+
+  .skills-tags-table {
+    justify-content: flex-start; /* Alinea las habilidades a la izquierda */
+    font-size: 14px; /* Tamaño reducido para las etiquetas de habilidades */
+    gap: 4px; /* Espacio reducido entre etiquetas */
+  }
+
+  .top-section-table{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    margin-bottom: 48px;
+  }
+
+
+  .tabs-table button {
+    padding: 8px 8px;
+  }
 }

@@ -25,9 +25,9 @@ function SectionAboutMe() {
             <p>
               I hold a degree in{" "}
               <span className="green-text">
-                Digital Interaction Techniques and Multimedia (where I delved
+                Digital Interaction Techniques and Multimedia </span>{" "}(where I delved
                 into programming and design)
-              </span>{" "}
+              
               and a{" "}
               <span className="green-text">
                 Master’s in User Experience Design
@@ -42,7 +42,7 @@ function SectionAboutMe() {
               showcase.
             </p>
             <p>
-              <span>My goal?</span> To build user-centered digital experiences
+              <span className="green-text">My goal?</span> To build user-centered digital experiences
               that blend solid coding with engaging design.
             </p>
             <p>

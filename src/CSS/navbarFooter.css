@@ -28,7 +28,7 @@
 }
 
 .section-navbar {
-  /* background-image: linear-gradient(to bottom, var(--neutral-white), rgba(255, 255, 255, 0)); */
+  background-image: linear-gradient(to bottom, var(--neutral-white), rgba(255, 255, 255, 0)); 
 }
 .social-media-icons {
   gap: 16px;
@@ -83,3 +83,55 @@
 .divider {
   color: #cacaca;
 }
+
+
+@media (max-width: 768px) {
+  /* Centrar el logo y ajustar su tamaño */
+  .navbar-left {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  /* Reducir el tamaño del logo en móvil */
+  .logo {
+    font-size: 16px; /* Ajusta según el tamaño que prefieras */
+  }
+
+  /* Ocultar los enlaces y solo dejar los iconos sociales */
+  .navbar-right .link-page {
+    display: none; /* Oculta Projects y About me */
+  }
+
+  /* Alinea los iconos de redes sociales a la derecha del logo */
+  .navbar-right {
+    display: flex;
+    justify-content: flex-end;
+    gap: 12px;
+  }
+
+  /* Ajustar tamaño de los iconos sociales en móvil */
+  .social-media-icons img {
+    width: 20px; /* Ajusta según el tamaño que prefieras */
+    height: 20px;
+  }
+
+  /* Ajustar el padding y altura */
+  .main-nav-container{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+  
+  .section-footer{
+    margin: 24px 16px;
+
+  }
+
+  .navbar-center{
+    gap: 4px;
+    flex-wrap: wrap;
+  }
+}
+
+

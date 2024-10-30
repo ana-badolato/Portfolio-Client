@@ -47,4 +47,30 @@
 
 .about-paragraph p{
   margin-bottom: 24px;
+  line-height: 1.5;
+}
+
+/* Media query para pantallas de tablets y móviles */
+@media (max-width: 1024px) {
+  .about-main {
+    flex-direction: column; /* Cambia el diseño a columna */
+    gap: 32px; /* Reduce el espacio entre elementos */
+    align-items: center;
+    padding: 0 16px; /* Padding lateral de 16px */
+  }
+
+  .about-main-text {
+    max-width: 100%; /* El texto ocupa todo el ancho */
+    text-align: left; /* Alinea el texto a la izquierda */
+  }
+
+  .about-img {
+    max-width: 100%; /* La imagen ocupa todo el ancho */
+    text-align: center;
+  }
+
+  .about-img img {
+    width: 100%; /* La imagen se adapta al ancho completo */
+    height: auto;
+  }
 }

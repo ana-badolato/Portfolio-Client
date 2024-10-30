@@ -14,7 +14,7 @@ function RowNotFeatured(props) {
 
   return (
     <div className="row-container">
-      <h2 className="table-title column1">{title}</h2> {/* Columna 1 */}
+      <h2 className="row-title column1">{title}</h2> {/* Columna 1 */}
       <p className="table-text column2">{resume}</p> {/* Columna 2 */}
       <div className="skills-tags-table column3"> {/* Columna 3 */}
         {Array.isArray(skills) && skills.map((skill, index) => (

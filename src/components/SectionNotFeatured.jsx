@@ -37,9 +37,9 @@ function SectionNotFeatured() {
   return (
     <div className="section-not-featured">
       <div className="top-section-table">
-        <div className="title-table">
-          <h2>Other Projects</h2>
-        </div>
+
+          <h2 className="title-table">Other Projects</h2>
+
         <div className="tabs-table">
           <button
             className={`web-dev-btn ${
