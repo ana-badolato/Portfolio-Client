@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import RowNotFeatured from "../components/RowNotFeatured.jsx";
 import service from "../services/config.js";
-import "../CSS/RowNotFeatured.css";
+import "../CSS/rowNotFeatured.css";
 import DownloadButton from "./DownloadButton.jsx";
 
 function SectionNotFeatured() {
