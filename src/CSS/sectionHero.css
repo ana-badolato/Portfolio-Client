@@ -1,6 +1,6 @@
 /* Hero ------------------------------------------- */
 .section-hero {
-  background-image: url("../src/assets/images/backgroundHome.png");
+  background-image: url("../assets/images/backgroundHome.png");
   background-size: cover; /* La imagen cubre el contenedor */
   background-position: top center; /* Ancla la imagen en la parte superior */
   background-repeat: no-repeat;
