@@ -92,9 +92,24 @@ button.active {
 }
 
 .column4 {
-  grid-column: 4;
+  width: 100px; /* Ajusta el ancho según lo que necesites */
+  display: flex;
   align-items: center;
+  justify-content: center;
+  var(--font-secundary);
+}
+
+.icon-text {
+  display: flex;
+  align-items: center;
+  gap: 8px;
   font-family: var(--font-secundary);
+  font-size: 14px;
+  color: #7e7e7e;
+}
+
+.placeholder {
+  visibility: hidden; /* Oculta el contenido pero mantiene el espacio */
 }
 
 .column5 {
@@ -141,6 +156,8 @@ button.active {
   }
 
   /* Coloca los botones debajo del título */
+  
+
   .icon-text {
     font-size: 14px; /* Reduce el tamaño de la fuente de los botones */
     display: flex;
@@ -148,6 +165,8 @@ button.active {
     gap: 8px;
     margin-top: 4px;
   }
+  
+  
 
   /* Apila el resumen y habilidades debajo de los botones */
   .column2,

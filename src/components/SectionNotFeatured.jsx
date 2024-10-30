@@ -7,7 +7,7 @@ import DownloadButton from "./DownloadButton.jsx";
 function SectionNotFeatured() {
   const [allNotFeaturedProjects, setAllNotFeaturedProjects] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
-  const [selectedCategory, setSelectedCategory] = useState("All Projects"); // Estado para la categoría seleccionada
+  const [selectedCategory, setSelectedCategory] = useState("Web Development"); // Estado para la categoría seleccionada
 
   useEffect(() => {
     getData();

@@ -24,12 +24,20 @@ function RowNotFeatured(props) {
         ))}
       </div>
 
-      {linkGit &&  ( /* Condicional para mostrar solo si linkGit tiene un valor */
-        <a href={linkGit} className="icon-text column4">
-          <img src={githubIcon} alt="" />
-          <p>Repository</p>
-        </a>
-      )}
+     {/* Mantiene la clase .column4 con ancho fijo */}
+     <div className="column4">
+        {linkGit ? (
+          <a href={linkGit} className="icon-text" target="_blank" rel="noopener noreferrer">
+            <img src={githubIcon} alt="GitHub Repository" />
+            <p>Repository</p>
+          </a>
+        ) : (
+          <div className="icon-text placeholder">
+            <img src={githubIcon} alt="" />
+            <p>Repository</p>
+          </div>
+        )}
+      </div>
       <a href={linkWeb} className="icon-text column5"> {/* Columna 5 */}
         <img src={arrowIcon} alt="" />
         <p>Web</p>
