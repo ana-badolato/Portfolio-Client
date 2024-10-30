@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import CardFeatured from "../components/cardFeatured.jsx"
+import CardFeatured from "../components/CardFeatured.jsx"
 import service from "../services/config.js";
-import "../CSS/CardFeatured.css"
+import "../CSS/cardFeatured.css"
 
 function SectionFeatured() {
 
