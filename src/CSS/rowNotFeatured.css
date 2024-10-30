@@ -45,6 +45,12 @@
   border: 1px solid #ACACAC;
 }
 
+.web-dev-btn:hover, .ux-ui-btn:hover, .all-projects-btn:hover {
+  cursor: pointer;
+  color: var(--primary-green);
+  transition: 0.5s;
+}
+
 /* Estilos comunes para el botón activo */
 button.active {
   border: 1px solid #00796b;

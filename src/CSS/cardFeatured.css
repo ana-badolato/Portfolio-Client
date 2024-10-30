@@ -24,11 +24,7 @@
   max-width: 25%;
 }
 
-.section-img {
-  flex-basis: 75%;
-  max-width: 75%;
-  height: auto;
-}
+
 
 /* Estilos de texto */
 .section-title {
@@ -61,6 +57,8 @@
 }
 
 /* Estilos de la imagen de la tarjeta */
+
+
 .section-img {
   height: 600px;
   border: 4px solid var(--secundary-grey);
@@ -70,6 +68,9 @@
   transform: translateY(20px);
   transition: opacity 0.6s ease, transform 0.6s ease;
   overflow: hidden;
+  flex-basis: 75%;
+  max-width: 75%;
+  height: auto;
 }
 
 .section-img.visible {
