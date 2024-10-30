@@ -1,7 +1,50 @@
+.about-title {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.about-title h2{
+  font-size: 32px;
+}
+
 .profile-picture {
-  width: 56px;
-  height: 56px;
+  width: 64px;
+  height: 64px;
   object-fit: cover;
   border-radius: 50%;
   border: 2px solid var(--primary-green);
+}
+
+.about-main{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  gap: 64px;
+  margin: 156px 0 156px 0;
+}
+
+.about-main-text {
+  font-size: 20px;
+  max-width: 45%;
+}
+
+.about-img {
+  max-width: 50%;
+}
+
+
+
+.green-text {
+  color: var(--primary-green);
+  font-weight: 400;
+}
+
+.about-paragraph {
+  margin: 32px 0 48px 0
+}
+
+.about-paragraph p{
+  margin-bottom: 24px;
 }
