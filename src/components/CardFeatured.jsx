@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from "react";
 import "../CSS/cardFeatured.css";
-import arrowLightIcon from "../assets/icons/arrowLight.svg";
+import arrowLightIcon from "../assets/icons/arrowlight.svg";
 import githubImg from "../assets/icons/github.svg";
 
 function CardFeatured(props) {
