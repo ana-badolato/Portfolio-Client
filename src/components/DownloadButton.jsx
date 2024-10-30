@@ -1,7 +1,7 @@
 import download from "../assets/icons/file.svg"
 
 function DownloadButton() {
-  const pdfUrl = "https://drive.google.com/uc?export=download&id=1m4YgwVO6QnV00MQdeaoTO73Yn0w1yoD5";
+  const pdfUrl = "https://drive.google.com/uc?export=download&id=1RY95BM3nBpfTRMyigg1VlC95-mQqi9Am";
 
   const handleDownload = () => {
     const link = document.createElement("a");
