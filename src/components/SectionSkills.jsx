@@ -10,8 +10,10 @@ import nodejsImg from "../assets/images/nodejs.svg"
 
 function Skills() {
   return (
-    <div>
+    <div className="main-skills-container">
       <hr />
+      <div className="skills-row">
+
       <img src={reactImg} alt="" />
       <img src={jsImg} alt="" />
       <img src={htmlImg} alt="" />
@@ -20,6 +22,7 @@ function Skills() {
       <img src={nodejsImg} alt="" />
       <img src={expressImg} alt="" />
       <img src={figmaImg} alt="" />
+      </div>
       <hr />
     </div>
   )

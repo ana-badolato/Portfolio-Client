@@ -1,0 +1,114 @@
+/* Estilos específicos para cada botón */
+.section-not-featured {}
+
+.top-section-table {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Asegura que los elementos estén centrados verticalmente */
+  margin-bottom: 64px;
+}
+
+.title-table {
+  font-size: 32px;
+  display: flex; /* Asegura que el texto esté alineado en el centro verticalmente */
+  align-items: center;
+}
+
+.tabs-table {
+  display: flex;
+  align-items: center;
+}
+
+.web-dev-btn {
+  border-radius: 3px 0 0 3px;
+}
+
+
+.all-projects-btn {
+  border-radius: 0 3px 3px 0;
+}
+
+.web-dev-btn, .ux-ui-btn, .all-projects-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 16px;
+  font-family: var(--font-secundary);
+  color: #7e7e7e;
+  background-color: var(--neutral-white);
+  border: 1px solid #ACACAC;
+}
+
+/* Estilos comunes para el botón activo */
+button.active {
+  border: 1px solid #00796b;
+  color: var(--primary-green);
+  background-color: #DDDDDD;
+}
+
+
+/* Contenedor de la lista de proyectos */
+.row-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  width: 100%; /* Ocupa todo el ancho del contenedor */
+}
+
+/* Cada proyecto será un contenedor de 5 columnas */
+.row-container {
+  display: grid;
+  grid-template-columns: 1.5fr 2fr 2fr auto auto; 
+  width: 100%;
+  border-top: 0.5px solid var(--primary-green);
+  padding: 32px 0;
+  align-items: center;
+  gap: 56px;
+}
+
+.column1 {
+  grid-column: 1;
+}
+
+.column2 {
+  grid-column: 2;
+  font-size: 20px;
+}
+
+.column3 {
+  grid-column: 3;
+}
+
+.column4 {
+  grid-column: 4;
+  align-items: center;
+  font-family: var(--font-secundary);
+}
+
+.column5 {
+  grid-column: 5;
+  justify-self: end; 
+  align-items: center;
+  font-family: var(--font-secundary);
+}
+
+.skills-tags-table {
+  display: flex;
+  justify-content: flex-end; 
+  flex-wrap: wrap;
+  gap: 4px;
+  font-family: var(--font-secundary);
+}
+
+.column4 p:hover, .column5 p:hover{
+  color: var(--primary-green);
+  transition: 0.5s;
+}
+
+.not-featured-bottom{
+  display: flex;
+  gap: 24px;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 96px;
+}

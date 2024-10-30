@@ -11,7 +11,7 @@ function DownloadButton() {
   };
 
   return (
-    <button onClick={handleDownload} className="download-button">
+    <button onClick={handleDownload} className="main-button">
       <img src={download} alt="" />
       <p>Download my CV</p>
     </button>

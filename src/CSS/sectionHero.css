@@ -1,0 +1,35 @@
+/* Hero -------------------------------------------*/
+.section-hero {
+  background-image: url("../src/assets/images/backgroundHome.png");
+  background-size: cover; /* La imagen cubre todo el contenedor */
+  background-position: center; /* Centra la imagen */
+  background-repeat: no-repeat;
+  height: 100vh; /* La sección ocupa el 100% de la altura de la pantalla */
+  display: flex;
+  align-items: center;
+}
+
+.main-hero-container {
+  position: relative;
+  bottom: 128px;
+}
+
+.main-hero-container p{
+  font-family: var(--font-secundary);
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.main-hero-container h1{
+  font-size: 96px;
+  font-weight: 800;
+  margin: 32px 0;
+}
+
+.line {
+  display: block;
+}
+
+.green-title {
+  color: var(--primary-green)
+}

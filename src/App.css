@@ -36,7 +36,7 @@ ol {
 }
 
 
-.main-container, .main-nav-container {
+.main-container, .main-nav-container, .main-hero-container{
   max-width: 1440px;
   margin: auto;
 }
@@ -64,6 +64,7 @@ ol {
   flex-wrap: wrap;
   gap: 8px;
   margin-top: 10px;
+  font-family: var(--font-secundary);
 }
 
 .chip {
@@ -81,18 +82,8 @@ ol {
 }
 
 
-/* Hero -------------------------------------------*/
-.section-hero {
-  background-image: url("../src/assets/images/backgroundHome.png");
-  background-size: cover; /* La imagen cubre todo el contenedor */
-  background-position: center; /* Centra la imagen */
-  background-repeat: no-repeat;
-  height: 100vh; /* La sección ocupa el 100% de la altura de la pantalla */
-}
-
-
 /* Download Button ---------------------------------------*/
-.download-button{
+.main-button{
   border: none;
   background-color: var(--primary-green);
   color: var(--neutral-white);
@@ -105,13 +96,13 @@ ol {
   align-items: center;
 }
 
-.download-button:hover {
+.main-button:hover {
   cursor: pointer;
   background-color: #59ad91;
   transition: 0.5s;
 }
 
-.download-button img{
+.main-button img{
   width: 14px;
 }
 
@@ -141,4 +132,15 @@ ol {
 .scroll-to-top img {
   width: 24px; /* Tamaño de la flecha (ajusta según tu preferencia) */
   height: 24px;
+}
+
+/* Section Skills -------------------------------------------------------*/
+
+.main-skills-container{
+  margin: 128px 0;
+}
+
+.skills-row{
+  display: flex;
+  justify-content: center;
 }

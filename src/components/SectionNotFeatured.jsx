@@ -35,27 +35,37 @@ function SectionNotFeatured() {
   }
 
   return (
-    <div>
-      <div className="tabs">
-
-        <button
-          className={selectedCategory === "Web Development" ? "active" : ""}
-          onClick={() => setSelectedCategory("Web Development")}
-        >
-          Web Development
-        </button>
-        <button
-          className={selectedCategory === "UX/UI" ? "active" : ""}
-          onClick={() => setSelectedCategory("UX/UI")}
-        >
-          UX/UI
-        </button>
-        <button
-          className={selectedCategory === "All Projects" ? "active" : ""}
-          onClick={() => setSelectedCategory("All Projects")}
-        >
-          All Projects
-        </button>
+    <div className="section-not-featured">
+      <div className="top-section-table">
+        <div className="title-table">
+          <h2>Other Projects</h2>
+        </div>
+        <div className="tabs-table">
+          <button
+            className={`web-dev-btn ${
+              selectedCategory === "Web Development" ? "active" : ""
+            }`}
+            onClick={() => setSelectedCategory("Web Development")}
+          >
+            Web Development
+          </button>
+          <button
+            className={`ux-ui-btn ${
+              selectedCategory === "UX/UI" ? "active" : ""
+            }`}
+            onClick={() => setSelectedCategory("UX/UI")}
+          >
+            UX/UI
+          </button>
+          <button
+            className={`all-projects-btn ${
+              selectedCategory === "All Projects" ? "active" : ""
+            }`}
+            onClick={() => setSelectedCategory("All Projects")}
+          >
+            All Projects
+          </button>
+        </div>
       </div>
 
       <div className="row-list">
@@ -63,8 +73,11 @@ function SectionNotFeatured() {
           <RowNotFeatured key={eachProject._id} {...eachProject} />
         ))}
       </div>
-        <p>Want to know more?</p>
+      <div className="not-featured-bottom">
+
+      <p>Want to know more?</p>
       <DownloadButton />
+      </div>
     </div>
   );
 }
