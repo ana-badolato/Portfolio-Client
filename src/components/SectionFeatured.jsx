@@ -18,11 +18,15 @@ function SectionFeatured() {
   const getData = async () => {
     try {
       setIsLoading(true);
-      const response = await service.get("/project/featured");
-      setAllFeaturedProjects(response.data || []);
+      // Cargar el archivo JSON en lugar de hacer una solicitud a un backend
+      const response = await fetch("/data.json");
+      const data = await response.json();
+      // Filtrar solo los proyectos destacados
+      const featuredProjects = data.filter((project) => project.featured);
+      setAllFeaturedProjects(featuredProjects);
       setIsLoading(false);
     } catch (error) {
-      console.log(error);
+      console.log("Error loading data:", error);
     }
   };
 

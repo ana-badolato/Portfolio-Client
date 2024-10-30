@@ -16,11 +16,15 @@ function SectionNotFeatured() {
   const getData = async () => {
     try {
       setIsLoading(true);
-      const response = await service.get("/project/not-featured");
-      setAllNotFeaturedProjects(response.data || []);
+      // Cargar el archivo JSON en lugar de hacer una solicitud a un backend
+      const response = await fetch("/data.json");
+      const data = await response.json();
+      // Filtrar proyectos no destacados si es necesario
+      const notFeaturedProjects = data.filter((project) => !project.featured);
+      setAllNotFeaturedProjects(notFeaturedProjects);
       setIsLoading(false);
     } catch (error) {
-      console.log(error);
+      console.log("Error loading data:", error);
     }
   };
 

@@ -1,0 +1,314 @@
+[{
+  "_id": {
+    "$oid": "671f6b1c119885fdf078d28b"
+  },
+  "title": "Talent Bridge",
+  "resume": "Platform for managing events and collaborative projects.",
+  "description": "This project is a web platform for managing events and collaborative projects. It allows users to create, join, and manage events and projects, while handling notifications, team members, and (soon) communication through email integration. Our mission: building a future through talent, one project and event at a time.",
+  "category": "Web Development",
+  "skills": [
+    "Collaborative",
+    "React",
+    "Javascript",
+    "HTML",
+    "CSS",
+    "Node.js",
+    "Express",
+    "MongoDB",
+    "UX/UI"
+  ],
+  "linkWeb": "https://talentbridgeweb.netlify.app/",
+  "linkGit": "https://github.com/ana-badolato/TalentBridgeClient",
+  "featured": true,
+  "createdAt": {
+    "$date": "2024-10-28T10:44:44.628Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-29T15:24:34.859Z"
+  },
+  "__v": 0,
+  "img": "https://res.cloudinary.com/drqiultmd/image/upload/v1730298686/vkfmngxlzkj4a7eyyjoo.png"
+},
+{
+  "_id": {
+    "$oid": "671f745c6144ad6789903794"
+  },
+  "title": "Collective Pulse",
+  "resume": "Platform for managing events and collaborative projects.",
+  "description": "This website is a collaborative urban digital magazine where everyone can submit articles and stay informed about interesting facts across various categories. The app allows users to write, edit, and delete articles, as well as interact through comments, likes, and filters by date or views. ",
+  "category": "UX/UI",
+  "skills": [
+    "Collaborative",
+    "React",
+    "Javascript",
+    "HTML",
+    "CSS",
+    "Node.js",
+    "Json",
+    "MongoDB",
+    "UX/UI"
+  ],
+  "linkWeb": "https://collective-pulse.netlify.app/",
+  "linkGit": "https://github.com/ana-badolato/Collective-Pulse",
+  "featured": true,
+  "createdAt": {
+    "$date": "2024-10-28T11:24:12.144Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-28T11:24:12.144Z"
+  },
+  "__v": 0,
+  "img": "https://res.cloudinary.com/drqiultmd/image/upload/v1730298686/lzpp6gakldw7csxekhtj.png"
+},
+{
+  "_id": {
+    "$oid": "671f74806144ad6789903796"
+  },
+  "title": "Memetopia",
+  "resume": "A fast-paced tower climb battling wild memes, collecting Doge Coins, and surviving for the highest score",
+  "description": "Memetopia is a fast-paced game where you climb an endless tower while battling crazed memes. The goal is simple: survive as long as possible, defeat enemies, and collect Doge Coins to boost your score. The game ends when time runs out, and your score is calculated based on the memes defeated, coins collected, and seconds survived.",
+  "category": "Web Development",
+  "skills": [
+    "Javascript",
+    "HTML",
+    "CSS",
+    "UX/UI"
+  ],
+  "linkWeb": "https://ana-badolato.github.io/MemeTopia/",
+  "linkGit": "https://github.com/ana-badolato/MemeTopia",
+  "featured": true,
+  "createdAt": {
+    "$date": "2024-10-28T11:24:48.809Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-28T11:24:48.809Z"
+  },
+  "__v": 0,
+  "img": "https://res.cloudinary.com/drqiultmd/image/upload/v1730298686/edvap9kudc4xzfvgyfa3.png"
+},
+{
+  "_id": {
+    "$oid": "6720ac73564326a4daad0909"
+  },
+  "title": "Flavor Flow",
+  "resume": "A personal recipe app for discovering, managing, and organizing favorite recipes intuitively",
+  "description": "Flavor Flow is a personal recipe app that allows you to manage, discover, and explore recipes intuitively. With a clean, user-friendly interface, users can add, edit, and organize recipes into categories, as well as mark their favorites.",
+  "category": "Web Development",
+  "skills": [
+    "React",
+    "Javascript",
+    "HTML",
+    "CSS",
+    "Node.js",
+    "Json",
+    "UX/UI"
+  ],
+  "linkWeb": "https://github.com/ana-badolato/FlavorFlow",
+  "linkGit": "https://github.com/ana-badolato/FlavorFlow",
+  "featured": false,
+  "createdAt": {
+    "$date": "2024-10-29T09:35:47.688Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-29T09:35:47.688Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6720b69e564326a4daad092e"
+  },
+  "title": "Ubuntu Store",
+  "resume": "Redesign of the Ubuntu App Store (at Canonical)",
+  "description": "",
+  "category": "UX/UI",
+  "skills": [
+    "UX/UI"
+  ],
+  "linkWeb": "https://www.figma.com/design/lBMHq7MAqQW1gJNi9hLo2c/Design-Collection?node-id=1-50297&t=SZexcgGQrAoxaTAb-1",
+  "linkGit": "",
+  "featured": false,
+  "createdAt": {
+    "$date": "2024-10-29T10:19:10.522Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-29T10:19:10.522Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67224fdf49eae4d242ec7928"
+  },
+  "title": "Warehouses",
+  "resume": "Creation of a warehouse management app (at Redbility for Inditex)",
+  "description": "",
+  "category": "UX/UI",
+  "skills": [
+    "UX/UI"
+  ],
+  "linkWeb": "https://www.figma.com/design/lBMHq7MAqQW1gJNi9hLo2c/Design-Collection?node-id=165-54426&t=SZexcgGQrAoxaTAb-2",
+  "linkGit": "",
+  "featured": false,
+  "createdAt": {
+    "$date": "2024-10-29T10:19:10.522Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-29T10:19:10.522Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6722507649eae4d242ec7929"
+  },
+  "title": "Villaverde Distrito Deportivo",
+  "resume": "Creation of the sports website for the Villaverde City Council (at Ayuntamiento de Madrid)",
+  "description": "",
+  "category": "UX/UI",
+  "skills": [
+    "UX/UI"
+  ],
+  "linkWeb": "https://www.figma.com/design/lBMHq7MAqQW1gJNi9hLo2c/Design-Collection?node-id=2-3294&t=SZexcgGQrAoxaTAb-3",
+  "linkGit": "",
+  "featured": false,
+  "createdAt": {
+    "$date": "2024-10-29T10:19:10.522Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-29T10:19:10.522Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6722517d49eae4d242ec792a"
+  },
+  "title": "Snapcraft",
+  "resume": "Redesign of the main pages of Snapcraft (at Canonical)",
+  "description": "",
+  "category": "UX/UI",
+  "skills": [
+    "UX/UI"
+  ],
+  "linkWeb": "https://www.figma.com/design/lBMHq7MAqQW1gJNi9hLo2c/Design-Collection?node-id=1-54151&t=SZexcgGQrAoxaTAb-4",
+  "linkGit": "",
+  "featured": false,
+  "createdAt": {
+    "$date": "2024-10-29T10:19:10.522Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-29T10:19:10.522Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6722527e49eae4d242ec792b"
+  },
+  "title": "Bimi",
+  "resume": "An app designed to promote environmental awareness and encourage walking (Academic)",
+  "description": "",
+  "category": "UX/UI",
+  "skills": [
+    "UX/UI"
+  ],
+  "linkWeb": "https://www.figma.com/design/lBMHq7MAqQW1gJNi9hLo2c/Design-Collection?node-id=9-1020&t=SZexcgGQrAoxaTAb-5",
+  "linkGit": "",
+  "featured": false,
+  "createdAt": {
+    "$date": "2024-10-29T10:19:10.522Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-29T10:19:10.522Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "672252d449eae4d242ec792c"
+  },
+  "title": "Uttori",
+  "resume": "Online store for handcrafted jewelry. (Academic)",
+  "description": "",
+  "category": "UX/UI",
+  "skills": [
+    "UX/UI"
+  ],
+  "linkWeb": "https://www.figma.com/design/lBMHq7MAqQW1gJNi9hLo2c/Design-Collection?node-id=4-48350&t=SZexcgGQrAoxaTAb-6",
+  "linkGit": "",
+  "featured": false,
+  "createdAt": {
+    "$date": "2024-10-29T10:19:10.522Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-29T10:19:10.522Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6722531d49eae4d242ec792d"
+  },
+  "title": "CoSpace",
+  "resume": "Application for project management and virtual meetings. (Academic)",
+  "description": "",
+  "category": "UX/UI",
+  "skills": [
+    "UX/UI"
+  ],
+  "linkWeb": "https://www.figma.com/design/lBMHq7MAqQW1gJNi9hLo2c/Design-Collection?node-id=0-1&t=SZexcgGQrAoxaTAb-7",
+  "linkGit": "",
+  "featured": false,
+  "createdAt": {
+    "$date": "2024-10-29T10:19:10.522Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-29T10:19:10.522Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "672253d749eae4d242ec792e"
+  },
+  "title": "Stachio",
+  "resume": "App for vegans and vegetarians to find restaurants, food products, and more. (Academic)",
+  "description": "",
+  "category": "UX/UI",
+  "skills": [
+    "UX/UI"
+  ],
+  "linkWeb": "https://www.figma.com/design/lBMHq7MAqQW1gJNi9hLo2c/Design-Collection?node-id=9-1019&t=SZexcgGQrAoxaTAb-8",
+  "linkGit": "",
+  "featured": false,
+  "createdAt": {
+    "$date": "2024-10-29T10:19:10.522Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-29T10:19:10.522Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6722543649eae4d242ec792f"
+  },
+  "title": "#DeZero",
+  "resume": "App to support women affected by domestic abuse. (Academic)",
+  "description": "",
+  "category": "UX/UI",
+  "skills": [
+    "UX/UI"
+  ],
+  "linkWeb": "https://www.figma.com/design/lBMHq7MAqQW1gJNi9hLo2c/Design-Collection?node-id=9-3481&t=SZexcgGQrAoxaTAb-9",
+  "linkGit": "",
+  "featured": false,
+  "createdAt": {
+    "$date": "2024-10-29T10:19:10.522Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-29T10:19:10.522Z"
+  },
+  "__v": 0
+}]
