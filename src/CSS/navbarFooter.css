@@ -1,19 +1,19 @@
 /*Navbar--------------------------------------------------------*/
-.main-nav-container, .navbar-right, .social-media-icons, .navbar-center{
+.main-nav-container, .navbar-right, .social-media-icons, .footer-center, .footer-left, .footer-right{
   display: flex;
 }
 
-.main-nav-container{
+.main-nav-container, .main-footer-container{
   justify-content: space-between;
   align-items: center;
   width: 100%;
 }
 
-.navbar-right{
+.navbar-right, .footer-right{
   gap: 40px;
 }
 
-.logo {
+.logo, .logo-footer {
   font-weight: 500;
   font-size: 18px;
   color: var(--primary-green);
@@ -51,7 +51,8 @@
 
 /*Footer--------------------------------------------*/
 
-.navbar-center{
+.footer-center{
+  display: flex;
   gap: 32px;
 }
 
@@ -116,6 +117,10 @@
     height: 20px;
   }
 
+  .main-nav-container{
+    padding: 0 16px 32px 0;
+  }
+
   /* Ajustar el padding y altura */
   .main-nav-container{
     display: flex;
@@ -128,7 +133,7 @@
 
   }
 
-  .navbar-center{
+  .footer-center{
     gap: 4px;
     flex-wrap: wrap;
   }

@@ -9,10 +9,10 @@ function Footer() {
       <hr className="hr-footer"/>
     <div className="section-footer">
       <div className="main-nav-container">
-        <div className="navbar-left">
-          <p className="logo">Ana Badolato</p>
+        <div className="footer-left">
+          <p className="logo-footer">Ana Badolato</p>
         </div>
-        <div className="navbar-center">
+        <div className="footer-center">
           <a href="https://www.linkedin.com/in/anabadolatomunuera/" className="icon-text-footer" target="_blank">
             <img src={linkedinImg} alt="linkedin link" />
             <p>LinkedIn</p>
@@ -28,7 +28,7 @@ function Footer() {
             <p>Behance</p>
           </a>
         </div>
-      <div className="navbar-right">
+      <div className="footer-right">
       <a href="mailto:badolatoana@gmail.com" className="email">badolatoana@gmail.com</a>
       </div>
       </div>
