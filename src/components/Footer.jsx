@@ -8,7 +8,7 @@ function Footer() {
     <div>
       <hr className="hr-footer"/>
     <div className="section-footer">
-      <div className="main-nav-container">
+      <div className="main-footer-container">
         <div className="footer-left">
           <p className="logo-footer">Ana Badolato</p>
         </div>

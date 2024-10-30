@@ -1,5 +1,5 @@
 /*Navbar--------------------------------------------------------*/
-.main-nav-container, .navbar-right, .social-media-icons, .footer-center, .footer-left, .footer-right{
+.main-nav-container, .main-footer-container, .navbar-right, .social-media-icons, .footer-center, .footer-left, .footer-right{
   display: flex;
 }
 
@@ -122,7 +122,7 @@
   }
 
   /* Ajustar el padding y altura */
-  .main-nav-container{
+  .main-footer-container{
     display: flex;
     flex-direction: column;
     gap: 24px;

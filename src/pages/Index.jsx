@@ -10,7 +10,11 @@ import arrowTopIcon from "../assets/icons/arrowTop.svg"
 function Index({ projectsRef, aboutMeRef }) {
 
   const scrollToTop = () => {
-    window.scrollTo({ top: 0, behavior: "smooth" });
+    console.log("Scroll to top button clicked");
+    // Hacer scroll hasta "Projects" usando projectsRef
+    if (projectsRef.current) {
+      projectsRef.current.scrollIntoView({ behavior: "smooth" });
+    }
   };
 
   return (
@@ -27,8 +31,9 @@ function Index({ projectsRef, aboutMeRef }) {
         </div>
       </div>
       {/* Botón de scroll hacia arriba */}
-      <button onClick={scrollToTop} className="scroll-to-top">
-        <img src={arrowTopIcon} alt="Go to top" /> {/* Añadir la imagen de la flecha aquí más tarde */}
+{/* Botón de scroll hacia arriba */}
+<button onClick={scrollToTop} className="scroll-to-top">
+        <img src={arrowTopIcon} alt="Go to top" />
       </button>
     </div>
   )
