@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from "react";
-import "../CSS/CardFeatured.css";
+import "../CSS/cardFeatured.css";
 import arrowLightIcon from "../assets/icons/arrowLight.svg";
 import githubImg from "../assets/icons/github.svg";
 

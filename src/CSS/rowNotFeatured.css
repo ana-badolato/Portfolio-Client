@@ -96,7 +96,7 @@ button.active {
   display: flex;
   align-items: center;
   justify-content: center;
-  var(--font-secundary);
+  font-family: var(--font-secundary);
 }
 
 .icon-text {
